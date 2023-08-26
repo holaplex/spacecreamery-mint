@@ -61,7 +61,7 @@ export default function Home({ session }: HomeProps) {
   return (
     <>
       <header className='flex w-full justify-between items-center py-4'>
-        <Image src='/img/logo.png' alt='site logo' width={120} height={20} />
+        <Image src='/img/logo.png' alt='site logo' width={360} height={60} />
         {!me ? (
           <>
             <div className='flex gap-1 md:gap-4 items-center'>
